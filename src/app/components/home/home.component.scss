@@ -1,0 +1,22 @@
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 71px;
+  margin-right: 71px;
+
+  .headline {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+
+    span {
+      font-weight: bold;
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 72px;
+      font-weight: 900;
+    }
+  }
+}
