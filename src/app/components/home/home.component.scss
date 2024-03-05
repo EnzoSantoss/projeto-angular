@@ -36,6 +36,7 @@
   align-items: center;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 40px;
 
   .benefit-data {
     line-height: 70px;
@@ -55,4 +56,9 @@
     font-size: 40px;
     font-weight: lighter;
   }
+}
+
+.cta-section {
+  display: flex;
+  justify-content: center;
 }
