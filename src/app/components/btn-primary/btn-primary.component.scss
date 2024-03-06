@@ -9,6 +9,7 @@
 
   &:disabled {
     opacity: 0.6;
+    cursor: default;
   }
 
   &.primary {
@@ -18,7 +19,9 @@
   }
 
   &.secondery {
-    color: blue;
+    color: black;
+    font-weight: bold;
     background-color: white;
+    width: 150px;
   }
 }
